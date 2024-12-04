@@ -180,19 +180,18 @@ public class ArrCharOps {
         int n1= str1.length();
         int n2 = str2.length();
         int min = Math.min(n1 ,n2);
-        for (int i = 0 ; i < min ; i++){
-                if (str1.charAt(i) < str2.charAt(i)){
-                    return -1;
-                }
-                else if (str1.charAt(i) > str2.charAt(i)){
-                    return 1;
-                }
+        for (int i = 0; i < min; i++) {
+            if (str1.charAt(i) < str2.charAt(i)) {
+                return -1;
+            } else if (str1.charAt(i) > str2.charAt(i)) {
+                return 1;
             }
+        }
                 
                 if (n1 < n2){
                     return -1;
                 }
-                else if (n2 > n1){
+                else if (n1 > n2){
                     return 1;
                 }
             
