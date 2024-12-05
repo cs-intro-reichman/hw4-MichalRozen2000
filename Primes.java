@@ -22,7 +22,7 @@ public class Primes {
         
         for (int i = 2 ; i <= n ; i++){
             if (arr[i]){
-            System.out.print(i + " ");
+            System.out.println(i);
             counter++;
             }
         }
